@@ -1,0 +1,1 @@
+cd ~/litellm-proxy && source .venv/bin/activate && uv pip install --upgrade 'litellm[proxy]'
