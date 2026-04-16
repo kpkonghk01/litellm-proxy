@@ -1,5 +1,5 @@
 general_settings:
-  master_key: sk-dummy   # you can change this to any secret string you like
+  master_key: sk-dummy # you can change this to any secret string you like
 
 litellm_settings:
   drop_params: true
@@ -11,10 +11,10 @@ model_list:
       max_input_tokens: 128000
       max_output_tokens: 16384
     litellm_params:
-      model: github_copilot/claude-opus-4.6
+      model: github_copilot/gpt-5-mini
       drop_params: true
       extra_headers:
-        editor-version: "vscode/1.114.0"
+        editor-version: "vscode/1.116.0"
 
   - model_name: claude-sonnet-4.6
     model_info:
@@ -22,10 +22,10 @@ model_list:
       max_input_tokens: 128000
       max_output_tokens: 16384
     litellm_params:
-      model: github_copilot/claude-sonnet-4.6
+      model: github_copilot/gpt-5-mini
       drop_params: true
       extra_headers:
-        editor-version: "vscode/1.114.0"
+        editor-version: "vscode/1.116.0"
 
   - model_name: claude-haiku-4.5
     model_info:
@@ -33,7 +33,7 @@ model_list:
       max_input_tokens: 128000
       max_output_tokens: 16384
     litellm_params:
-      model: github_copilot/claude-haiku-4.5
+      model: github_copilot/gpt-5-mini
       drop_params: true
       extra_headers:
-        editor-version: "vscode/1.114.0"
+        editor-version: "vscode/1.116.0"
