@@ -46,8 +46,10 @@ To use Claude Code with this proxy, create or edit `~/.claude/settings.json`:
 	"env": {
 		"ANTHROPIC_BASE_URL": "http://localhost:4000",
 		"ANTHROPIC_AUTH_TOKEN": "sk-dummy",
-		"ANTHROPIC_MODEL": "claude-opus-4.6",
-		"ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-sonnet-4.6",
+		"ANTHROPIC_MODEL": "claude-haiku-4.5",
+		"ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4.6",
+		"ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-4.6",
+		"ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-haiku-4.5",
 		"DISABLE_NON_ESSENTIAL_MODEL_CALLS": "1",
 		"DISABLE_TELEMETRY": "1",
 		"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
